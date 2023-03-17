@@ -20,16 +20,16 @@ Los primitivos son más sencillos, y en general funcionan muy parecidos entre s�
 
 > Los importantes (que se usan seguido) los pongo en *cursiva*
 
-| Tipo de dato | Tamaño  | Descripción                                                                          |
-|--------------|---------|--------------------------------------------------------------------------------------|
-| byte         | 1 byte  | Guarda números enteros desde -128 to 127                                             |
-| short        | 2 bytes | Guarda números enteros desde -32,768 to 32,767                                       |
-| *int*        | 4 bytes | Guarda números enteros desde -2,147,483,648 to 2,147,483,647                         |
-| long         | 8 bytes | Guarda números enteros desde -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
-| float        | 4 bytes | Guarda números racionales con hasta 6 o 7 digitos decimales                          |
-| *double*     | 8 bytes | Guarda números racionales con hasta 15 digitos decimales                             |
-| *boolean*    | 1 bit   | Guarda un valor `true` o `false` (SI o NO)                                              |
-| *char*       | 2 bytes | Guarda un solo caracter ([ASCII](https://www.rapidtables.com/code/text/ascii-table.html))                                                             |
+| Tipo de dato | Tamaño  | Descripción                                                                              |
+|--------------|---------|------------------------------------------------------------------------------------------|
+| byte         | 1 byte  | Guarda números enteros desde -128 to 127                                                 |
+| short        | 2 bytes | Guarda números enteros desde -32,768 to 32,767                                           |
+| *int*        | 4 bytes | Guarda números enteros desde -2,147,483,648 to 2,147,483,647                             |
+| long         | 8 bytes | Guarda números enteros desde -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807     |
+| float        | 4 bytes | Guarda números racionales con hasta 6 o 7 digitos decimales                              |
+| *double*     | 8 bytes | Guarda números racionales con hasta 15 digitos decimales                                 |
+| *boolean*    | 1 bit   | Guarda un valor `true` o `false` (SI o NO)                                               |
+| *char*       | 2 bytes | Guarda un solo caracter ([ASCII](https://www.rapidtables.com/code/text/ascii-table.html))|
 
 Ejemplo:
 
