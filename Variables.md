@@ -33,13 +33,15 @@ Los primitivos son más sencillos, y en general funcionan muy parecidos entre s�
 
 Ejemplo:
 
-```Java
-int myNum = 5;               // Número entero
-double myDoubleNum = 5.99;   // Número decimal
-char myLetter = 'D';         // Caracter
-boolean myBool = true;       // Valor booleano
-int numeroVacío;             // Variable int vacía
-String myText = "Hello";     // String (??????)
+```java
+public static void main(String[] args) {
+    int myNum = 5;               // Número entero
+    double myDoubleNum = 5.99;   // Número decimal
+    char myLetter = 'D';         // Caracter
+    boolean myBool = true;       // Valor booleano
+    int numeroVacío;             // Variable int vacía
+    String myText = "Hello";     // String (??????)
+}
 ```
 
 Con el ejemplo aprendemos varias cosas:
@@ -76,10 +78,12 @@ Usando comillas dobles, podés guardar texto en una variable de tipo `String`
 ¿Por qué? Veamos el siguiente ejemplo
 
 ```java
-String var1 = "Pedro";
-String var2 = var1;
-var1 = "Manuela";
-String var3 = juan
+public static void main(String[] args) {
+    String var1 = "Pedro";
+    String var2 = var1;
+    var1 = "Manuela";
+    String var3 = juan
+}
 ```
 
 Qué estoy haciendo acá?
